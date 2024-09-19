@@ -1,11 +1,6 @@
 # Crowd counting Using YOLO-v10 and Homographies
 In this project I came up with a method count the number of people in a crowd, the video I used was taken by a drone. For the project to work the video must be taken from a far away distance like the drone video and have a good object detector to detect people. The proposed method takes advantage of the long distance imaging nature of drone videos
 
-## Watch the Demo Video
-
-[![example clip](./clip.mp4)](./clip.mp4)
-
-
 ## Initial setup and Video Understanding
 
 The video is taken from a far away distance using a drone and it is a sequence of overlapping images. All the objects in the video are from a far away distance with overlapping fields between successive images, this can be used to compute a homography.
